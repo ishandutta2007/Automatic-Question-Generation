@@ -20,10 +20,10 @@ flowchart LR
 
 | Era / Paradigm | Description & Traits | Year First Used | First Used Paper Link |
 | --- | --- | --- | --- |
-| **The Hand-Crafted Heuristic & Syntax Transformation Era** | *Concept:* Deterministic, rule-based text manipulation task using syntax-tree transformers.<br>*Limitation:* Highly rigid and brittle, lacking semantic comprehension. | Pre-2016 | N/A |
-| **The Neural Sequence-to-Sequence Era** | *Concept:* End-to-end differentiable neural matrices (RNN/LSTM/Transformers).<br>*Significance:* Transformed AQG into a data-driven generation task. | 2017 | [Du et al., 2017](#references) |
-| **The Large-Scale Autoregressive Prompting Era** | *Concept:* Massive foundation LLMs using In-Context Few-Shot Prompting. | 2020 | [Brown et al., 2020](#references) |
-| **The Verifiable Self-Play & Alignment Era** | *Concept:* RLVR and Self-Play Algorithms.<br>*Significance:* AQG loops locked within hardcoded software verification enclaves. | 2025 | [DeepSeek-AI, 2025](#references) |
+| **[The Hand-Crafted Heuristic & Syntax Transformation Era](pages/hand-crafted-heuristic.md)** | *Concept:* Deterministic, rule-based text manipulation task using syntax-tree transformers.<br>*Limitation:* Highly rigid and brittle, lacking semantic comprehension. | Pre-2016 | N/A |
+| **[The Neural Sequence-to-Sequence Era](pages/neural-seq2seq.md)** | *Concept:* End-to-end differentiable neural matrices (RNN/LSTM/Transformers).<br>*Significance:* Transformed AQG into a data-driven generation task. | 2017 | [Du et al., 2017](#references) |
+| **[The Large-Scale Autoregressive Prompting Era](pages/autoregressive-prompting.md)** | *Concept:* Massive foundation LLMs using In-Context Few-Shot Prompting. | 2020 | [Brown et al., 2020](#references) |
+| **[The Verifiable Self-Play & Alignment Era](pages/verifiable-self-play.md)** | *Concept:* RLVR and Self-Play Algorithms.<br>*Significance:* AQG loops locked within hardcoded software verification enclaves. | 2025 | [DeepSeek-AI, 2025](#references) |
 
 ---
 
@@ -34,10 +34,10 @@ AQG methodologies are strictly categorized based on the underlying source modali
 
 | Variant Type | Mechanism / Details | Example | Year First Used | First Used Paper Link |
 | --- | --- | --- | --- | --- |
-| **Factoid Question Generation** | Targets explicitly stated surface-level facts and named entities. | `"In what year was the Treaty of Versailles signed?"` | 2017 | [Du et al., 2017](#references) |
-| **Deep Cognitive QG** | Evaluates macro themes and implicit causal relationships using Chain-of-Thought. | `"What would be the systemic economic consequence...?"` | 2020 | [Brown et al., 2020](#references) |
-| **Answer-Conditioned vs. Agnostic** | Conditioned: Target answer phrase provided. Agnostic: Autonomous high-yield milestone calculation. | N/A | 2017 | [Du et al., 2017](#references) |
-| **Visual Question Generation (VQG)** | Deployed in VLMs, slices graphics into 2D structural patch tokens. | N/A | 2022 | [Wang et al., 2022](#references) |
+| **[Factoid Question Generation](pages/factoid-qg.md)** | Targets explicitly stated surface-level facts and named entities. | `"In what year was the Treaty of Versailles signed?"` | 2017 | [Du et al., 2017](#references) |
+| **[Deep Cognitive QG](pages/deep-cognitive-qg.md)** | Evaluates macro themes and implicit causal relationships using Chain-of-Thought. | `"What would be the systemic economic consequence...?"` | 2020 | [Brown et al., 2020](#references) |
+| **[Answer-Conditioned vs. Agnostic](pages/answer-conditioned-agnostic.md)** | Conditioned: Target answer phrase provided. Agnostic: Autonomous high-yield milestone calculation. | N/A | 2017 | [Du et al., 2017](#references) |
+| **[Visual Question Generation (VQG)](pages/visual-qg.md)** | Deployed in VLMs, slices graphics into 2D structural patch tokens. | N/A | 2022 | [Wang et al., 2022](#references) |
 
 ---
 
@@ -61,8 +61,8 @@ flowchart TB
 
 | Component | Profile / Description | Year First Used | First Used Paper Link |
 | --- | --- | --- | --- |
-| **Process-Supervised Step Auditors (PRMs)** | Granular verification monitoring; scores each intermediate thinking milestone to catch errors. | 2023 | [Lightman et al., 2023](#references) |
-| **Vector Database Deduplication Blocks** | Slashes data redundancy by using dense sentence encoders and geometric vector search. | 2025 | [DeepSeek-AI, 2025](#references) |
+| **[Process-Supervised Step Auditors (PRMs)](pages/process-supervised-prms.md)** | Granular verification monitoring; scores each intermediate thinking milestone to catch errors. | 2023 | [Lightman et al., 2023](#references) |
+| **[Vector Database Deduplication Blocks](pages/vector-deduplication.md)** | Slashes data redundancy by using dense sentence encoders and geometric vector search. | 2025 | [DeepSeek-AI, 2025](#references) |
 
 ---
 
@@ -72,8 +72,8 @@ Deploying and scaling automated question generation networks across large-scale 
 
 | Challenge | The Problem | Mitigation | Year First Used | First Used Paper Link |
 | --- | --- | --- | --- | --- |
-| **The Hallucination Cascade** | Structural drift, model collapse due to unvetted synthetic data. | Retrieval-Augmented In-Context Checking (RAG). | 2020 | [Brown et al., 2020](#references) |
-| **The Distributed Context Padding** | Load Imbalance and stalling GPU cores due to varying context sizes. | Length-Grouped Token Batching and Fused Chunk Prefills. | 2025 | [DeepSeek-AI, 2025](#references) |
+| **[The Hallucination Cascade](pages/hallucination-cascade.md)** | Structural drift, model collapse due to unvetted synthetic data. | Retrieval-Augmented In-Context Checking (RAG). | 2020 | [Brown et al., 2020](#references) |
+| **[The Distributed Context Padding](pages/distributed-context-padding.md)** | Load Imbalance and stalling GPU cores due to varying context sizes. | Length-Grouped Token Batching and Fused Chunk Prefills. | 2025 | [DeepSeek-AI, 2025](#references) |
 
 ---
 
@@ -81,9 +81,9 @@ Deploying and scaling automated question generation networks across large-scale 
 
 | Application Area | Description / Implementation | Year First Used | First Used Paper Link |
 | --- | --- | --- | --- |
-| **Automated Educational Assessment** | Generates customized quizzes and adaptive learning exams from textbooks and graphics. | 2017 | [Du et al., 2017](#references) |
-| **Web-Scale Synthetic Datasets** | Model recursively prompts itself to generate, solve, and verify problems to train smaller models. | 2022 | [Wang et al., 2022](#references) |
-| **Enterprise Knowledge Auditing** | Synthesizes queries programmatically to stress-test RAG loops and calculate Context Relevance. | 2025 | [DeepSeek-AI, 2025](#references) |
+| **[Automated Educational Assessment](pages/educational-assessment.md)** | Generates customized quizzes and adaptive learning exams from textbooks and graphics. | 2017 | [Du et al., 2017](#references) |
+| **[Web-Scale Synthetic Datasets](pages/synthetic-datasets.md)** | Model recursively prompts itself to generate, solve, and verify problems to train smaller models. | 2022 | [Wang et al., 2022](#references) |
+| **[Enterprise Knowledge Auditing](pages/enterprise-auditing.md)** | Synthesizes queries programmatically to stress-test RAG loops and calculate Context Relevance. | 2025 | [DeepSeek-AI, 2025](#references) |
 
 ---
 

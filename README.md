@@ -123,3 +123,15 @@ Before updating this documentation repository layout, let me know how you would 
 * I can generate a **Markdown matrix table** tracking the explicit hyperparameter scales, context boundaries, and target evaluation metrics utilized by leading foundation repositories to manage automated data curation [INDEX: 18].
 * I can write a detailed technical explanation focusing on **how to configure Process-Supervised Reward Models (PRMs)** to accurately identify the exact step where a synthesized question diverges from its ground-truth context parameters [INDEX: 16].
 
+
+
+##  Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAutomatic-Question-Generation&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Automatic-Question-Generation&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Automatic-Question-Generation&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Automatic-Question-Generation&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>

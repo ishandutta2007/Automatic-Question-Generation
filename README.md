@@ -1,5 +1,9 @@
-# Automatic-Question-Generation
-## Automatic Question Generation (AQG) in AI: History, Progression, Variants, & Applications
+<div align="center">
+  <img src="assets/banner.svg" alt="AQG Banner" width="100%" />
+</div>
+
+# 🤖 Automatic-Question-Generation
+## 🧠 Automatic Question Generation (AQG) in AI: History, Progression, Variants, & Applications
 
 **Automatic Question Generation (AQG)** is a specialized subfield of Natural Language Processing (NLP) and Natural Language Generation (NLG) dedicated to programmatically synthesizing grammatically correct, semantically coherent, and contextually relevant questions from raw input sources (such as text blocks, knowledge bases, database tables, or visual canvases) [INDEX: 18]. Traditionally, constructing educational assessments, diagnostic checkups, or conversational dialogs depended entirely on manual human orchestration. AQG transforms this landscape into an automated, data-driven framework. 
 
@@ -7,7 +11,7 @@ By leveraging underlying document features, syntactic parsers, semantic joint em
 
 ---
 
-## 1. The Macro Chronological Evolution
+## ⏳ 1. The Macro Chronological Evolution
 
 The technical framework governing question synthesis has transitioned from hand-crafted syntactic transformations to sequence-to-sequence neural mappings, web-scale autoregressive prompting, and modern verifier-locked self-play loops.
 
@@ -28,7 +32,7 @@ flowchart LR
 ---
 
 
-## 2. Core Functional & Target-Driven Variants
+## 🎯 2. Core Functional & Target-Driven Variants
 
 AQG methodologies are strictly categorized based on the underlying source modality and the targeted depth of cognitive complexity demanded by the evaluation metric.
 
@@ -41,7 +45,7 @@ AQG methodologies are strictly categorized based on the underlying source modali
 
 ---
 
-## 3. The Synthetic Data Curation & Self-Instruct Matrix
+## 🧬 3. The Synthetic Data Curation & Self-Instruct Matrix
 
 To scale up data-centric AI operations without experiencing data-contamination or model collapse, automated AQG systems deploy inline distillation and preference filtering layers [INDEX: 11, 18].
 
@@ -66,7 +70,7 @@ flowchart TB
 
 ---
 
-## 4. Production Engineering Challenges & Infrastructure Mitigations
+## 🏭 4. Production Engineering Challenges & Infrastructure Mitigations
 
 Deploying and scaling automated question generation networks across large-scale commercial infrastructures introduces distinct semantic drift and batch load constraints.
 
@@ -77,7 +81,7 @@ Deploying and scaling automated question generation networks across large-scale 
 
 ---
 
-## 5. Frontier Real-World AI Industrial Applications
+## 🌍 5. Frontier Real-World AI Industrial Applications
 
 | Application Area | Description / Implementation | Year First Used | First Used Paper Link |
 | --- | --- | --- | --- |
@@ -87,7 +91,7 @@ Deploying and scaling automated question generation networks across large-scale 
 
 ---
 
-## References
+## 📚 References
 1. Vaswani, A., et al. (2017). Attention is all you need: Scalable foundational transformer matrix blocks. *Advances in Neural Information Processing Systems (NeurIPS)*, 30 [INDEX: 1].
 2. Du, X., Shao, J., & Cardie, C. (2017). Learning to ask: Neural question generation for reading comprehension. *Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics*, 1342-1341.
 3. Rajpurkar, P., et al. (2018). Know what you don't know: Unanswerable questions for SQuAD. *arXiv preprint arXiv:1806.03822*.

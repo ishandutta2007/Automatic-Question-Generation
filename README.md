@@ -3,6 +3,13 @@
 </div>
 
 # 🤖 Automatic-Question-Generation
+
+<!-- SEO: Automatic Question Generation, AQG, NLP, NLG, AI Education, Synthetic Data, EdTech, LLM, Verifiable Self-Play, RLVR -->
+
+<div align="center">
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+</div>
+
 ## 🧠 Automatic Question Generation (AQG) in AI: History, Progression, Variants, & Applications
 
 **Automatic Question Generation (AQG)** is a specialized subfield of Natural Language Processing (NLP) and Natural Language Generation (NLG) dedicated to programmatically synthesizing grammatically correct, semantically coherent, and contextually relevant questions from raw input sources (such as text blocks, knowledge bases, database tables, or visual canvases) [INDEX: 18]. Traditionally, constructing educational assessments, diagnostic checkups, or conversational dialogs depended entirely on manual human orchestration. AQG transforms this landscape into an automated, data-driven framework. 
